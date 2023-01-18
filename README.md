@@ -1,1 +1,5 @@
 # FantasyFootballDraftSimulator
+
+Group Project - w/ Chris Hinshaw and Jack Horgan
+
+Using a default projection system provided by ESPN's published projections for the 2021 season, we create a fantasy football draft simulator in the best ball format. We built an autodraft (draft highest positionally-weighted projected player) that we competed against to try to outperform over n number of simulations. The draft strategy we landed on was taking the greatest difference between the highest projected player's fantasy point z-score and the second highest z-score within a position. Our strategy did not do significantly better than autodraft. This notebook is also easy to adjust and expirement with. Users can input their own projections to compare to an autodraft that uses the default projections, or modify the way "our" draft strategy works. Full report found in "Fantasy Football Draft Simulator Capstone Document.pdf" with ESPN projection data under data, and python notebook "FantasyFootballDraft.ipynb" provided as well. Notebook also pulls from another GitHub Repository using API so it won't work if this repository gets deleted: https://github.com/fantasydatapros/data
